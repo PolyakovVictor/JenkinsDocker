@@ -14,7 +14,7 @@ pipeline {
         stage("docker login") {
             steps {
                 echo " ============== start building image ==============="
-                sh 'sudo docker build -t hello-app . '
+                sh 'sudo -S docker build -t hello-app . '
                 sh 'victor121'
                 
                 }
