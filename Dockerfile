@@ -5,5 +5,5 @@ RUN apt-get update && \
 
 COPY hellopy.py /home/hellopy.py
 
-ENTRYPOINT ["/usr/bin/python3","./hellopy.py"]
+ENTRYPOINT ["/usr/bin/python3","./home/hellopy.py"]
 
